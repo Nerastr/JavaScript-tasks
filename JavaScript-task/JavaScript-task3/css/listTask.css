@@ -1,0 +1,67 @@
+.board-app__list{
+    display: flex;  
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.list{
+    display: flex;  
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.box-backlog__item li{
+    box-shadow: 5px 0px 0px 0px rgb(66, 66, 66) inset;
+}
+.box-procces__item li{
+    box-shadow: 5px 0px 0px 0px rgb(0, 149, 255) inset;
+}
+.box-done__item li{
+    box-shadow: 5px 0px 0px 0px rgb(0, 255, 8) inset;
+}
+.box-del__item li{
+    box-shadow: 5px 0px 0px 0px rgb(255, 17, 0) inset;
+}
+
+
+li{
+    list-style-type:none;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+   
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.box h2{
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: fit-content;
+}
+.box-backlog{
+    background-color: rgb(255, 255, 255);
+    color: rgb(66, 66, 66);
+}
+.box-procces{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 149, 255);
+}
+.box-done{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 255, 0);
+}
+.box-delete{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
